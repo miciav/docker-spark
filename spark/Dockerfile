@@ -1,4 +1,4 @@
-FROM bde2020/hadoop-base:1.0.0
+FROM bde2020/hadoop-base:1.0.0-hadoop2.7.1
 
 RUN gpg --keyserver pool.sks-keyservers.net --recv-keys \
     A864F0C3E5262F9A229B85D07B165D2A15E06093 \
